@@ -16,4 +16,3 @@ Map mod to work with Season correctly, must be prepared for using Snow mask, the
 1.2 Put downloaded files into your map01 folder (path example: \yourMapModeName\maps\map01\herePutFiles)
 1.3 Open i3d file of your map (example: \yourMapModeName\maps\map01\map01.i3d) in text editor (Notepad, better is Notepad++)
 1.3.1 Find <Files> and insert under it two lines:
-
