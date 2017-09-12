@@ -19,4 +19,4 @@ Map mod to work with Season correctly, must be prepared for using Snow mask, the
 
 3. Open i3d file of your map (example: \yourMapModeName\maps\map01\map01.i3d) in text editor (Notepad, better is Notepad++)
 
-3.a Find <Files> and insert under it two lines:
+3.a Find '<Files>' and insert under it two lines:
