@@ -16,7 +16,8 @@ Map mod to work with Season correctly, must be prepared for using Snow mask, the
 2. Put downloaded files into your map01 folder (path example: \yourMapModeName\maps\map01\herePutFiles)  
 3. Open and edit i3d file of your map `example: \yourMapModeName\maps\map01\map01.i3d` in text editor (Notepad, better is Notepad++)  
 * Find `<Files>` and insert under it two lines:  
-`<File fileId="100050" filename="map01/invisible_mask_diffuse.png" relativePath="true"/>  
-<File fileId="100051" filename="map01/seasons_density.png" relativePath="true"/>`  
+`<File fileId="100050" filename="map01/invisible_mask_diffuse.png" relativePath="true"/>`  
+`<File fileId="100051" filename="map01/seasons_density.png" relativePath="true"/>`  
+
 another text:
 
