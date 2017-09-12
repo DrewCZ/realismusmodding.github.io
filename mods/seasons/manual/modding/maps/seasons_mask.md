@@ -13,8 +13,10 @@ The snow mask will keep snow from falling inside sheds, houses, rivers and on mo
 Map mod to work with Season correctly, must be prepared for using Snow mask, then create Snow mask in Giants Editor, and reconfigure it for using in game. This steps are middle dificulty and you need basic experiences how to edit i3d file and work with Giants editor. How to do it is described here:
 ## Preparing map mod  
 1. Download following files:  
-2. Put downloaded files into your map01 folder  >path example: \yourMapModeName\maps\map01\herePutFiles  
-3. Open and edit i3d file of your map in rich text editor (Notepad, better is Notepad++)   >example: \yourMapModeName\maps\map01\map01.i3d
+2. Put downloaded files into your map01 folder  
+>path example: \yourMapModeName\maps\map01\herePutFiles  
+3. Open and edit i3d file of your map in rich text editor (Notepad, better is Notepad++)   
+>example: \yourMapModeName\maps\map01\map01.i3d
 * Find `<Files>` and insert under it two lines:  
 `<File fileId="100050" filename="map01/invisible_mask_diffuse.png" relativePath="true"/>`  
 `<File fileId="100051" filename="map01/seasons_density.png" relativePath="true"/>`  
